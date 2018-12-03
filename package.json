@@ -1,0 +1,30 @@
+{
+  "name": "lettergame",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "pixi.js": "^4.8.2",
+    "webpack": "^4.26.1"
+  },
+  "scripts": {
+    "start": "npm run webpack",
+    "webpack": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivkusto/letterGame.git"
+  },
+  "keywords": [
+    "game",
+    "pixijs"
+  ],
+  "author": "Nikita Zhakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivkusto/letterGame/issues"
+  },
+  "homepage": "https://github.com/ivkusto/letterGame#readme",
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
